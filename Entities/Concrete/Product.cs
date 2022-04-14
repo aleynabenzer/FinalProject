@@ -1,0 +1,23 @@
+﻿using Entities.Abstract;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Entities.Concrete
+{
+
+    // public = bu class a diğer katmanlarda ulaşabilsin demektir
+    //internal = olursa sadece bulunduğu (entities) erişebilir
+
+    public class Product:IEntity
+    {
+        public int ProductId { get; set; }
+        public int CategoryId { get; set; }
+        public string ProductName { get; set; }
+        public short UnistInStock { get; set; }
+        public decimal UnitPrice { get; set; }
+
+    }
+}
