@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-
-    //IProductDal I interface Product hangi tabloya karşılık geldiği Dal hangi katmana geldiği
-     public interface IProductDal:IEntityRepository<Product>
+    public interface ICategoryDal:IEntityRepository<Category>
+    //yalnızca category ile çalışması için IEntityRepository da işlemler yaptık
     {
-        
+
+
+
 
 
     }
 }
-// code refactoring kod iyileştirmesi demek
