@@ -14,7 +14,7 @@ namespace DataAccess.Concrete.EntityFramework
     //nuget
     //veritabanı işlemi yapma süreci: entity framework
 
-    //IproductDal için gerekenler EfEntityRepositoyryBasenin içinde 
+    //IproductDal için gerekenler EfEntityRepositoryBasenin içinde 
     public class EfProductDal : EfEntityRepositoryBase<Product, NorthwindContext>, IProductDal
     {
        
